@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "my_font";
+    src: url("./fonts&&picturs/Roboto-MediumItalic.ttf");
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    height: 120vh;
+    background: whitesmoke
+}
+#main-title{
+    font-family: "my_font";
+    text-align: center;
+    border: solid white 0.5px;
+    background: rgba(245, 245, 245, 0.931);
+    height: 4rem;
+    box-shadow: 1px 8px rgba(208, 207, 207, 0.718) ;
+    font-weight: bold;
+    font-size: 3rem;
+    
+
+
+}
+.substitle{
+    border: solid solid white;
+    background: rgba(225, 225, 225, 0.817);
+    text-align: center;
+    height: 4rem;
+   padding-top: 20px;
+   font-size: 1.1rem;
+   font-weight:650;
+   
+}
+.btn2{
+    background: linear-gradient(170deg, #ff79da, #9356dc);
+    border-radius: 35px;
+    font-size: 1.2rem;
+    color: white;
+    padding: 13px;
+    border: none;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    
+}
+
+.btn2:hover{
+    box-shadow: 5px 8px rgba(135, 131, 131, 0.579);
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+main{
+    background: rgba(243, 241, 241, 0.862);
+    display: grid;
+    grid-template-columns: 50%   50%;
+    height: 45vh;
+    
+    
+}
+.bloc1-du-main h2{
+    margin-top: 1rem;
+    margin-left: 4rem;
+
+}
+.bloc1-du-main h4{
+   padding-top: 25px;
+   font-size: 1.2rem;
+   margin-left: 4rem;
+   font-weight: bold;
+}
+
+.bloc2-du-main{
+    line-height: 55px;
+   font-size: 1.2rem;
+   width: 80%;
+   position: relative;
+   margin-left: 2rem;
+}
+.bloc2-du-main .choice{
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f6;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 4px 4px 2px lightgrey;
+    border-radius: 20px 20px;
+    text-align: center;
+    height: 4rem;
+    line-height: 2rem;
+    white-space: nowrap;
+}
+   
+.bloc2-du-main p{
+    width: 30px;
+    height: 35px;
+    background: #9356dc ;
+    border-radius: 50%;
+    color: whitesmoke;
+    position: absolute;
+    left: 0.5px;
+    margin-right: 45px;
+    font-size: 1.3rem;
+   
+    
+}
+.bloc_section{
+  
+    display: grid;
+   grid-template-areas:
+   "picutre1  picutre2"
+   "picutre3   picutre4" ;
+   margin: 5rem;
+  
+}
+.pictur1{
+    grid-area:  "picutre1";
+    background: url("./fonts&&picturs/plat1.jpg")center/cover no-repeat;
+    height: 250px;
+
+}
+.pictur2{
+    grid-area:  "picutre2";
+ 
+    background: url("./fonts&&picturs/plat2.jpg")center/cover no-repeat;
+    height: 250px;
+}
+.pictur3{
+    grid-area:  "picutre3";
+   margin: 25px;
+    background: url("./fonts&&picturs/plat3.jpg")center/cover no-repeat;
+    height: 250px;
+
+}
+.pictur4{
+    grid-area:  "picutre4";
+    margin-top: 25px;
+  
+    background: url("./fonts&&picturs/plat4.jpg")center/cover no-repeat;
+    height: 250px;
+}
+.pictur1 ,.pictur2 ,.pictur3, .pictur4{
+    margin: 15px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.bloc2-du-main span{
+    margin-left: 15px;
+}
+.fa_3{
+    color: #9356dc;
+}
+ .min_footer{
+     position: relative;
+    width: 100%;
+     background: white;
+     position: absolute;
+     bottom: 0px;
+    height: 5rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+ }
+.fa-4{
+   position: absolute ;
+   bottom: 50%;
+   right: 25px;
+   font-size: 2rem;
+ color: none;
+
+}
+.choice{
+    position: relative;
+}
+
+.fa-heart{
+ position: absolute;
+ bottom:  50%;
+ right: 25px;
+ font-size: 2rem;
+ 
+}
